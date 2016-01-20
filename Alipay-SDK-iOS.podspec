@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/ricebook/iOS-lib-AliPay.git' }
 
 
-  s.source_files  = 'lib/*.{h,m}'
   s.resources = 'lib/*.bundle'
   s.vendored_framework = 'lib/AlipaySDK.framework'
 
