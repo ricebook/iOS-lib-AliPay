@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'lib/*.{h,m}'
   s.resources = 'lib/*.bundle'
-  s.vendored_library = 'lib/*.a'
   s.vendored_framework = 'lib/AlipaySDK.framework'
 
 
