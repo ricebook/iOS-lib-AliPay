@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.resources = 'lib/*.bundle'
   s.vendored_framework = 'lib/AlipaySDK.framework'
 
-
+  s.frameworks = 'CoreMotion', 'Security', 'CFNetwork', 'CoreTelephony', 'SystemConfiguration'
+  s.libraries = "z", "c++"
 
 end
