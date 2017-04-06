@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'Alipay-SDK-iOS'
-  s.version      = '15.2.0'
+  s.version      = '15.3.3'
   s.summary      = 'ENJOY used SDK for iOS'
 
   s.homepage     = 'https://github.com/ricebook/iOS-lib-AliPay'
@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.source       = { :git => 'https://github.com/ricebook/iOS-lib-AliPay.git' }
 
-
-  s.source_files  = 'lib/*.{h,m}'
   s.resources = 'lib/*.bundle'
   s.vendored_framework = 'lib/AlipaySDK.framework'
 
